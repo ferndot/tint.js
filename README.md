@@ -1,2 +1,2 @@
-# prow
-Selects optimal foreground color based on background color.
+# prow.js
+Miscellaneous color tools for the web developer.
