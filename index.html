@@ -35,8 +35,8 @@
 		<script>
 			var colorForm = document.forms["colorForm"];			
 			function checkContrast() {
-				var backgroundColor = (colorForm.elements['background-color']).value,
-					foregroundColor = (colorForm.elements['foreground-color']).value;
+				var backgroundColor = prow.convert.hexToRGB((colorForm.elements['background-color']).value),
+					foregroundColor = prow.convert.hexToRGB((colorForm.elements['foreground-color']).value);
 				
 				alert(prow.getContrastRatio(backgroundColor,foregroundColor));
 				
