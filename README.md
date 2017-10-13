@@ -44,8 +44,8 @@ prow.getRelativeLuminance([255, 255, 255]); // Returns 0.9873055935982454​​�
 ```
 
 #### prow.getContrastRatio
-Returns a decimal value representing the relative [luminance](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef) of the given color.
-Color must be an sRGB array of the form [r,g,b]
+Returns the contrast ratio of the two given colors in fractional form.
+Takes two parameters which must be sRGB arrays of the form [r,g,b]
 ##### Example usage
 ```javascript
 prow.getContrastRatio([255,253,255], [1, 1, 1]); // Returns ​​​​​20.620931688099795
