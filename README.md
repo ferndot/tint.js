@@ -50,3 +50,10 @@ Takes two parameters which must be sRGB arrays of the form [r,g,b]
 ```javascript
 prow.getContrastRatio([255,253,255], [1, 1, 1]); // Returns ​​​​​20.620931688099795
 ```
+
+#### prow.randomColor
+Returns a random RGB color in the form [r,g,b].
+##### Example usage
+```javascript
+prow.randomColor(); // Returns ​​​​​[242,56,119]
+```
