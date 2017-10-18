@@ -63,5 +63,16 @@ var prow = {
 		// Ratio = (L1 + 0.05) / (L2 + 0.05)
 		// Where L1 > L2
 		return (Math.max(color1Luminance,color2Luminance) + 0.05) / (Math.min(color1Luminance,color2Luminance) + 0.05);
+	},
+	
+	function randomColor(){
+		var color = [],
+			min = Math.ceil(0),
+			max = Math.floor(255);
+	
+		while (color.length < 3) {
+			color.push(Math.floor(Math.random() * (max - min + 1)) + min);
+		}
+		return color;
 	}
 }
