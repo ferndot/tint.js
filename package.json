@@ -1,0 +1,17 @@
+{
+  "name": "tint.js",
+  "version": "1.0.0",
+  "description": "Miscellaneous color tools for the web developer",
+  "main": "tint.js",
+  "repository": "https://github.com/joshua-s/tint.js",
+  "author": "Joshua Smith <thewanuki@gmail.com>",
+  "license": "GPL-3.0",
+  "keywords": [
+    "color",
+    "utility"
+  ],
+  "bugs": {
+    "url": "https://github.com/joshua-s/tint.js/issues"
+  },
+  "homepage": "https://github.com/joshua-s/tint.js#readme"
+}

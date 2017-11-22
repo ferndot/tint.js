@@ -3,7 +3,6 @@
 *   tint.js
 *   Miscellaneous color tools for the web developer.
 *   Licensed under the GPLv3. See LICENSE.
-*   Coded with <3 by Joshua Smith
 *
 */
 
